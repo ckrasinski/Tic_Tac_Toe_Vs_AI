@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="initial-scale=1, width=device-width">
+        <link rel="stylesheet" href="/static/styles.css">
+        <script src="/static/script.js"></script>
+        <title>Tic Tac Toe VS AI: {% block title %}{% endblock %}</title>
+    </head>
+    <body>
+        <div id="nav">
+            <button><a href="/">Tic Tac Toe VS AI</a></button>
+            <span id="right">
+                <button id="login"><a href="/login">Log In</a></button>
+                <button id="register"><a href="/register">Register</a></button>
+            </span>
+        </div>
+        <div id="content">
+            {% block main %}{% endblock %}
+        </div>
+    </body>
+</html>

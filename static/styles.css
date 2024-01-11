@@ -1,0 +1,47 @@
+#right
+{
+    float: right;
+}
+
+body
+{
+    margin: 20px;
+}
+
+#tic_tac_toe > button
+{
+    padding: 50px;
+    margin: 1px;
+}
+
+#right > button, #nav > button
+{
+    padding: 10px;
+}
+
+a
+{
+    text-decoration: none;
+    color: black;
+}
+
+#nav
+{
+    padding: 10px;
+    background-color: #EEEEEE;
+}
+
+#content
+{
+    text-align: center;
+}
+
+h2
+{
+    font-size: 33px;
+}
+
+.field
+{
+    padding: 15px;
+}
